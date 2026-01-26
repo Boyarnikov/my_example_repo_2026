@@ -3,7 +3,9 @@
 def f(x):
     return x ** 2
 
-print("hello world!")
-print("privet user!")
+name = input("What is your name?")
 
-x = 2 * f(5) + 10
+print("hello world!")
+print(f"privet {name}!")
+
+x = 2 * f(55) + 10

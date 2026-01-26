@@ -1,6 +1,9 @@
 # example code to show merging and branching
 
-print("hello world!")
-print("hello user!")
+def f(x):
+    return x ** 2
 
-x = 2 * 5 + 10
+print("hello world!")
+print("privet user!")
+
+x = 2 * f(5) + 10

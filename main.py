@@ -1,6 +1,8 @@
 # example code to show merging and branching
 
-print("hello world!")
-print("hello user!")
+name = input("What is your name?")
 
-x = 2 * 5 + 10
+print("hello world!")
+print(f"hello {name}!")
+
+x = 2 * 55 + 10

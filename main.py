@@ -5,7 +5,7 @@ def f(x):
 
 
 def g(x):
-    return x ** 3
+    return x ** 4
 
 
 name = input("What is your name?")

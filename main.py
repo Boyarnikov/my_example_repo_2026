@@ -1,8 +1,11 @@
 # example code to show merging and branching
 
+def f(x):
+    return x ** 2
+
 name = input("What is your name?")
 
 print("hello world!")
-print(f"hello {name}!")
+print(f"privet {name}!")
 
-x = 2 * 55 + 10
+x = 2 * f(55) + 10
